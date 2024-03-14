@@ -22,11 +22,11 @@ public class BalancedParentheses {
          else {
             System.out.println("The expression is too short.");
             return;
-         }
+        }
     }
     public boolean isItBalanced(char open,char close) {
       
-        if(open== '{' && close =='}'){
+            if(open== '{' && close =='}'){
                return true;
 
             } else if(open== '(' && close== ')'){
@@ -36,7 +36,7 @@ public class BalancedParentheses {
                return true;
 
             } 
-        return false;
+             return false;
     }
 
 }
