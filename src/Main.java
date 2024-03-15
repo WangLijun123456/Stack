@@ -14,9 +14,17 @@ public class Main {
                 break;
             }
             
-            balancedParentheses.balancedParentheses(input);
+            if (balancedParentheses.isBalanced(input)) {
+                System.out.println("The expression is balanced");
+            } else {
+                System.out.println("The expression is not balanced");
+            }
+          
         }
         
         scanner.close();
     }
 }
+
+
+
